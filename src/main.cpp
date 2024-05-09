@@ -145,30 +145,34 @@ void strategiePAMI(){
       goTo(1200,300);
       goTo(600,300);
       setOpponentChecking(false);
-      goTo(400,300);
+      goTo(225,225);
+      goTo(225,210);
       antennasDown();
     }
     else{
       goTo(3000-1200,300);
       goTo(3000-600,300);
       setOpponentChecking(false);
-      goTo(3000-400,300);
+      goTo(3000-225,225);
+      goTo(3000-225,210);
       antennasDown();
     }
   }
   else if(getRobotNumber() == 3){
     if(getTeamColor() == TEAM_BLUE){
-      goTo(1350,450);
-      goTo(400,550);
+      goTo(1350,300);
+      delay(600);
+      goTo(400,612);
       setOpponentChecking(false);
-      goTo(0,550);
+      goTo(0,612);
       antennasDown();
     }
     else{
-      goTo(3000-1350,450);
-      goTo(3000-400,550);
+      goTo(3000-1350,300);
+      delay(600);
+      goTo(3000-400,612);
       setOpponentChecking(false);
-      goTo(3000-0,550);
+      goTo(3000-0,612);
       antennasDown();
     }
   }

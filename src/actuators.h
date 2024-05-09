@@ -9,7 +9,7 @@
 #include "ihm.h"
 
 #define ANTENNA_UP 120
-#define ANTENNA_DOWN 45
+#define ANTENNA_DOWN 30
 
 // Déclaration des fonctions
 void initActuators();
